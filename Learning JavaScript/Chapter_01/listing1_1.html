@@ -1,32 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-	<title>Great Home Page</title>
-	<meta charset="utf-8" />
-
-	<!--CSS-->
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Great Home Page in HTML 5</title>
+    
+    <!--zoom in for small screen deviced-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!--external css-->
+    <link rel="stylesheet" href="css/styles.css">
+    
 </head>
 <body>
-	<header id="header" role="banner">
-		<h1><a href="/">Great Home Page</a></h1>
-	</header>
-	
-	<nav id="nav" role="navigation">
-		<ul>
-			<li><a href="/about ">About</a></li>
-			<li><a href="/articles ">Articles</a></li>
-			<li><a href="/staff ">Staff</a></li>
-			<li><a href="/contact ">Contact</a></li>
-		</ul>
-	</nav>
 
-	<article id="main" role="main">
-		[content here]
-	</article>
+<header id="header" role="banner">
+    <h1><a href="/">Great Home Page in HTML 5</a></h1>
+</header>
 
-	<footer id="footer" role="contentinfo">
-		<p>&copy; 2015 Awesome Site</p>
-	</footer>
+<nav id="nav" role="navigation">
+    <ul>
+        <li><a href="#" id="about">About</a></li>
+        <li><a href="/articles">Articles</a></li>
+        <li><a href="/staff">Staff</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+</nav>
+
+<article id="main" role="main">
+[content here]
+</article>
+
+<footer id="footer" role="contentinfo">
+    <p id="copy">&copy; 2012 Awesome Site</p>
+</footer>
+
+<!--external javascript-->
+<script src="js/script.js"></script>
+
 </body>
 </html>
